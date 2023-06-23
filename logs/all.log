@@ -1,0 +1,53 @@
+2023-06-24 04:10:22:1022 [31merror[39m: [31mThis is an error log[39m
+2023-06-24 04:10:22:1022 [33mwarn[39m: [33mThis is a warn log[39m
+2023-06-24 04:10:22:1022 [32minfo[39m: [32mThis is a info log[39m
+2023-06-24 04:10:22:1022 [35mhttp[39m: [35mThis is a http log[39m
+2023-06-24 04:10:22:1022 [37mdebug[39m: [37mThis is a debug log[39m
+2023-06-24 04:11:44:1144 [31merror[39m: [31mThis is an error log[39m
+2023-06-24 04:11:44:1144 [33mwarn[39m: [33mThis is a warn log[39m
+2023-06-24 04:11:44:1144 [32minfo[39m: [32mThis is a info log[39m
+2023-06-24 04:11:44:1144 [35mhttp[39m: [35mThis is a http log[39m
+2023-06-24 04:11:44:1144 [37mdebug[39m: [37mThis is a debug log[39m
+2023-06-24 04:18:10:1810 [35mhttp[39m: [35mGET / 200 13 - 9.694 ms[39m
+[35m[39m
+2023-06-24 04:19:27:1927 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:20:15:2015 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:20:30:2030 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:23:21:2321 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:26:25:2625 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:29:13:2913 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:29:19:2919 [32minfo[39m: [32m[32minfo[32m[39m
+2023-06-24 04:29:19:2919 [35mhttp[39m: [35mGET / 200 13 - 9.856 ms[39m
+[35m[39m
+2023-06-24 04:29:36:2936 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:29:38:2938 [32minfo[39m: [32mhiundefined[39m
+2023-06-24 04:29:38:2938 [35mhttp[39m: [35mGET / 200 13 - 9.747 ms[39m
+[35m[39m
+2023-06-24 04:30:20:3020 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:31:03:313 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:31:06:316 [32minfo[39m: [32mhiundefined[39m
+2023-06-24 04:31:06:316 [35mhttp[39m: [35mGET / 200 13 - 9.843 ms[39m
+[35m[39m
+2023-06-24 04:33:00:330 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:33:06:336 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:33:06:336 [32minfo[39m: [32mhi200[39m
+2023-06-24 04:33:06:336 [35mhttp[39m: [35mGET / 200 13 - 9.595 ms[39m
+[35m[39m
+2023-06-24 04:33:30:3330 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:33:36:3336 [32minfo[39m: [32mhi200[39m
+2023-06-24 04:33:36:3336 [35mhttp[39m: [35mGET / 200 13 - 9.989 ms[39m
+[35m[39m
+2023-06-24 04:34:31:3431 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:34:49:3449 [32minfo[39m: [32mhi200[39m
+2023-06-24 04:34:49:3449 [35mhttp[39m: [35mGET / 200 13 - 11.112 ms[39m
+[35m[39m
+2023-06-24 04:35:03:353 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:35:04:354 [32minfo[39m: [32mhi200[39m
+2023-06-24 04:35:04:354 [35mhttp[39m: [35mGET / 200 13 - 10.116 ms[39m
+[35m[39m
+2023-06-24 04:35:20:3520 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:57:30:5730 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:59:07:597 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 04:59:23:5923 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 05:00:17:017 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
+2023-06-24 05:00:28:028 [37mdebug[39m: [37mServer is up and running @ http://localhost:5000[39m
