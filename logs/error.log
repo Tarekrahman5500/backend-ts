@@ -1,2 +1,37 @@
 2023-06-24 04:10:22:1022 [31merror[39m: [31mThis is an error log[39m
 2023-06-24 04:11:44:1144 [31merror[39m: [31mThis is an error log[39m
+2023-06-24 22:47:16:4716 [31merror[39m: [31mbad auth : Authentication failed.[39m
+2023-06-24 23:09:36:936 [31merror[39m: [31mquerySrv ESERVFAIL _mongodb._tcp.cluster0.ujz9r.mongodb.net[39m
+2023-06-24 23:12:35:1235 [31merror[39m: [31mqueryTxt ESERVFAIL cluster0.ujz9r.mongodb.net[39m
+2023-06-24 23:37:30:3730 [31merror[39m: [31mquerySrv ECONNREFUSED _mongodb._tcp.cluster0.ujz9r.mongodb.net[39m
+2023-06-25 01:05:44:544 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-06-25 01:06:17:617 [31merror[39m: [31mError occured: Unauthenticated[39m
+2023-06-25 01:20:29:2029 [31merror[39m: [31mError occured: hi[39m
+2023-06-25 01:29:19:2919 [31merror[39m: [31mError occured: hi[39m
+2023-06-25 01:37:29:3729 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 01:44:00:440 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 01:45:36:4536 [31merror[39m: [31mError occured: hi[39m
+2023-06-25 01:50:22:5022 [31merror[39m: [31mError occured:[39m
+2023-06-25 02:10:20:1020 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:11:29:1129 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:12:02:122 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:13:58:1358 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:14:50:1450 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:15:47:1547 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:16:22:1622 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:17:58:1758 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:18:55:1855 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:21:35:2135 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:21:53:2153 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:22:53:2253 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:31:06:316 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:35:30:3530 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:42:26:4226 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:43:41:4341 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:54:48:5448 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 02:57:50:5750 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 03:01:24:124 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 03:02:04:24 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 03:02:37:237 [31merror[39m: [31mError occured: Cast to ObjectId failed for value "64973a625747b7c25801b89" (type string) at path "_id" for model "Note"[39m
+2023-06-25 03:06:48:648 [31merror[39m: [31mError occured: E11000 duplicate key error collection: ts-database.notes index: title_1 dup key: { title: "My First Note" }[39m
+2023-06-25 03:07:53:753 [31merror[39m: [31mError occured: E11000 duplicate key error collection: ts-database.notes index: title_1 dup key: { title: "My First Note" }[39m

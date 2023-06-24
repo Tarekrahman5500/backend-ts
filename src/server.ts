@@ -1,34 +1,55 @@
-import express from 'express'
-//import cors from 'cors'
-//import {ServerApiVersion} from 'mongodb'
-import 'dotenv/config'
+import app from './app'
+import mongoose from 'mongoose'
+import env from './util/validateEnv'
 import Logger from "./lib/logger";
-//import mongoose from 'mongoose'
-import morganMiddleware from './config/morganMiddleware'
-const app = express()
+import {errorHandler} from "./error-handler/errorHandler";
 
-const port = process.env["PORT"] || 5000
+const port = env.PORT
+const MongoDB = env.MONGO_CONNECTION_STRING
 
-//let NOT = process.env["NOT"];
+//handle mongodb
+async function connectToDatabase(url: string ): Promise<void> {
+    try {
+        if (!url) Logger.error('MongoDB url not specified');
 
-//app.options('*', cors())
-app.use(morganMiddleware)
-// work done as middle ware body parser
-app.use(express.json())
-// for request activity
+            await mongoose.connect(url, {
+                dbName: 'ts-database',
+            });
+            Logger.info('Mongoose connected');
+    } catch (error) {
+        Logger.error(error);
+        throw error;
+    }
+}
+app.use(errorHandler);
+function startServer(port: string | number): void {
+    const server = app.listen(port, () => {
+        Logger.debug(`Server is up and running @ http://localhost:${port}`);
+    });
+
+    // Graceful shutdown
+    process.on('SIGINT', () => {
+        server.close(() => {
+            Logger.info('Server closed');
+            process.exit(0);
+        });
+    });
+}
+
+async function initialize(): Promise<void> {
+    try {
+        await connectToDatabase(MongoDB);
+        startServer(port);
+    } catch (error) {
+        Logger.error(error);
+        process.exit(1);
+    }
+}
+
+initialize().catch((error: Error) => {
+    console.error(error);
+    process.exit(1);
+});
 
 
-app.get('/', (req, res) => {
-  //   Logger.info("hi"+NOT);
-   /* Logger.error("This is an error log");
-    Logger.warn("This is a warn log");
-    Logger.info("This is a info log");
-    Logger.http("This is a http log");
-    Logger.debug("This is a debug log");*/
-    res.json('hello world')
-})
 
-app.listen(port, () => {
-
-    Logger.debug(`Server is up and running @ http://localhost:${port}`);
-})
